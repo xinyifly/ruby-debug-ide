@@ -41,6 +41,7 @@ EOF
 
   spec.extensions << "ext/mkrf_conf.rb" unless ENV['NO_EXT']
   spec.add_dependency("rake", ">= 0.8.1")
+  spec.add_dependency("debase", ">= 0.2.5.beta2")
 
   spec.required_ruby_version = '>= 1.8.2'
   spec.date = DateTime.now
